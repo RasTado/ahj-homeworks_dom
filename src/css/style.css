@@ -1,0 +1,28 @@
+body {
+  color: #999;
+}
+
+tr {
+  height: 120px;
+  border: 1px solid black;
+}
+
+td {
+  width: 120px;
+  border: 1px solid black;
+}
+
+.troll {
+  background: center no-repeat url("../img/goblin.png");
+  animation: trollup 250ms infinite alternate;
+}
+
+@keyframes trollup {
+  from {
+    background-size: 0%;
+  }
+
+  to {
+    background-size: 100%;
+  }
+}
